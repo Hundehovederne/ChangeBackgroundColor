@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        System.out.println("Hej");
-
-
         background = (LinearLayout) findViewById(R.id.background);
         btn1 = (Button) findViewById(R.id.btn1);
         btn2 = (Button) findViewById((R.id.btn2));
